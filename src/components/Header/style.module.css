@@ -1,0 +1,26 @@
+.nav {
+    height: 55px;
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.menu {
+    font-size: 20px;
+    color: #ffffff;
+}
+.lang {
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.active {
+    color: lime;
+}

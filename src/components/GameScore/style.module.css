@@ -1,0 +1,37 @@
+.modal {
+    background-color: var(--bg-color);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    font-size: 26px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    border-radius: 21px;
+    background-color: green;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button:hover {
+    opacity: 0.9;
+    scale: 0.95;
+}
+.button:active {
+    opacity: 1;
+    scale: 0.90;
+}
